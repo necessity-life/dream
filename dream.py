@@ -670,7 +670,6 @@ def parse_if_branch(token, stack):
     global branch_tokens
     global discard_invalid_branch
 
-    print(token)
     if token == 'then':
         if_branch = False
         discard_invalid_branch = False
